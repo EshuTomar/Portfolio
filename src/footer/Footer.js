@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <p className="footer-text">
-          No © copyright issues. If you need any help, ping me! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   
+          No © copyright issues. If you need any help, ping me! &nbsp; &nbsp; &nbsp; &nbsp;   
           Made with ❤ by Eshu tomar
         </p>
       </div>
