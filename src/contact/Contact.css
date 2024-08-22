@@ -1,0 +1,138 @@
+/* src/components/Contact.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F5F5DC;
+  margin: 0;
+  padding: 0;
+  color: #22635B;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.contact-container {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  background: #1E382E;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.contact-image {
+  flex: 1;
+  overflow: hidden;
+}
+
+.contact-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.contact-container:hover .contact-image img {
+  transform: scale(1.1);
+}
+
+.contact-form {
+  flex: 1;
+  padding: 30px;
+  color: #F5F5DC;
+}
+
+.contact-form h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #F36F54;
+}
+
+.contact-form p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: rgba(250, 235, 215, 0.692);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input {
+  background-color: #F5F5DC;
+  color: #22635B;
+}
+
+textarea {
+  background-color: #F5F5DC;
+  color: #22635B;
+}
+
+button {
+  background-color: #F55642;
+  color: #F5F5DC;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #F36F54;
+}
+
+.contact-note {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-note p {
+  font-size: 1.2rem;
+  color: #1E382E;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #F5F5DC;
+  font-size: 2rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #F55642;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}

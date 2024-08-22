@@ -1,0 +1,54 @@
+/* Navbar.css */
+
+:root {
+    --primary-color: #F55642; 
+    --secondary-color: #ffffff; /* White */
+    --hover-color: #125449; /* Dark Green */
+    --font-family: "Merriweather", serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-family);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: var(--primary-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 2.4rem;
+  }
+  
+  .navbar-logo a {
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar-links li {
+    display: inline;
+  }
+  
+  .navbar-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: var(--hover-color);
+    font-weight: 700;
+  }
+  
