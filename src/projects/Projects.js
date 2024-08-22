@@ -8,43 +8,43 @@ import Footer from '../footer/Footer';
       title: 'Movie-Watchlist App',
       description: 'The Movie Watchlist App lets users create and manage personalized lists of movies they want to search, watch, watched list',
       image: '/movie-app.png', 
-      link: 'https://your-codetogether-link.com'
+      link: 'https://stellar-monstera-817e1b.netlify.app/'
     },
     {
       title: 'Calendar',
       description: 'The Calendar App is a dynamic scheduling tool that allows users to organize events, set reminders, and manage their time efficiently with an intuitive and interactive interface.',
       image: '/calendar.png', 
-      link: 'https://your-moneymap-link.com'
+      link: 'https://66c6cd85466d47ff801e3416--timely-macaron-6f11e7.netlify.app/'
   },
     {
         title: 'CodeTogether',
         description: 'A real-time code collaboration web app with features like live editing, syntax highlighting, and version control.',
         image: '/codetogether.png', 
-        link: 'https://your-codetogether-link.com'
+        link: 'https://github.com/EshuTomar/codeTogether'
     },
     {
       title: 'MoneyMap',
       description: 'A financial tracking app that visualizes your income and expenses using interactive charts and graphs.',
       image: '/moneymap.png', 
-      link: 'https://your-moneymap-link.com'
+      link: 'https://moneymap-web-app.netlify.app/'
   },
     {
       title: 'Employee Review System',
       description: 'The Employee Review System streamlines performance evaluations by enabling managers to provide structured feedback, set goals, and track employee progress over time.',
       image: '/employee-system.png', 
-      link: 'https://your-codetogether-link.com'
+      link: 'https://employee-review-system-6v1t.onrender.com/'
     },
     {
       title: 'Habit tracker',
       description: 'The Habit Tracker App helps users build and maintain positive habits by allowing them to track daily routines, set goals, and visualize progress with ease.',
       image: '/habit-tracker.png', 
-      link: 'https://your-codetogether-link.com'
+      link: 'https://habit-tracker-app-4k4g.onrender.com/'
     },
     {
       title: 'Portfolio',
       description: 'The Portfolio is a showcase of my expertise as a full-stack developer, featuring a collection of projects that demonstrate my skills in web development, design, and software engineering.',
       image: '/portfolio.png', 
-      link: 'https://your-codetogether-link.com'
+      link: 'https://eshutomar.netlify.app/'
     },
    
     // Add more projects here
